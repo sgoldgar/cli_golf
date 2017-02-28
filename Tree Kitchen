@@ -1,0 +1,228 @@
+Last login: Mon Feb 27 18:10:15 on ttys000
+ GA General Assembly  Web Development Immersive 
+------------------------------------------
+git version 2.10.1
+Homebrew 1.1.10 Homebrew/homebrew-core (git revision b4e0; last commit 2017-02-27)
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin15]
+node v7.6.0
+psql (PostgreSQL) 9.6.2
+------------------------------------------
+type unwelcome to remove this message
+sarahgoldgar ~
+$ homework
+sarahgoldgar ~/code/wdi-atx-10/homework
+$ ls
+kitchen/
+sarahgoldgar ~/code/wdi-atx-10/homework
+$ cd kitchen
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ ls
+cans.txt  fridge/  pantry/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ cd fridge/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge
+$ ls
+diapers.txt  freezer/  milk.txt  trashcan/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge
+$ mv trashcan/ ~/code/wdi-atx-10/homework/kitchen/
+'trashcan/' -> '/Users/sarahgoldgar/code/wdi-atx-10/homework/kitchen/trashcan'
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge
+$ cd ..
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ ls
+cans.txt  fridge/  pantry/  trashcan/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ cd trashcan
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/trashcan
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt  sink/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/trashcan
+$ mv sink/ ~/code/wdi-atx-10/homework/kitchen/
+'sink/' -> '/Users/sarahgoldgar/code/wdi-atx-10/homework/kitchen/sink'
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/trashcan
+$ cd ..
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ ls
+cans.txt  fridge/  pantry/  sink/  trashcan/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ cd trashcan/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/trashcan
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/trashcan
+$ cd ..
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ cd sink/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/sink
+$ ls
+clean-dishes.txt  delete-me.txt  dirty-dishes.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/sink
+$ rm delete-me.txt 
+removed 'delete-me.txt'
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/sink
+$ ls
+clean-dishes.txt  dirty-dishes.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/sink
+$ mkdir drying-rack
+gmkdir: created directory 'drying-rack'
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/sink
+$ mv clean-dishes.txt drying-rack/
+'clean-dishes.txt' -> 'drying-rack/clean-dishes.txt'
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/sink
+$ ls
+dirty-dishes.txt  drying-rack/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/sink
+$ cd drying-rack/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/sink/drying-rack
+$ ls
+clean-dishes.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/sink/drying-rack
+$ cd ../../
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ ls
+cans.txt  fridge/  pantry/  sink/  trashcan/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ cd pantry/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/pantry
+$ ls
+cans.txt  cereal.txt  crisper-drawer/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/pantry
+$ mv crisper-drawer/ ~/code/wdi-atx-10/homework/kitchen/fridge
+'crisper-drawer/' -> '/Users/sarahgoldgar/code/wdi-atx-10/homework/kitchen/fridge/crisper-drawer'
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/pantry
+$ ls
+cans.txt  cereal.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/pantry
+$ cd ..
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ cd fridge/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge
+$ ls
+crisper-drawer/  diapers.txt  freezer/	milk.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge
+$ rm diapers.txt 
+removed 'diapers.txt'
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge
+$ ls
+crisper-drawer/  freezer/  milk.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge
+$ cd crisper-drawer/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge/crisper-drawer
+$ ls
+lettuce.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge/crisper-drawer
+$ touch apples.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge/crisper-drawer
+$ ls
+apples.txt  lettuce.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge/crisper-drawer
+$ cd ..
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge
+$ cd freezer/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge/freezer
+$ ls
+couch.txt  frozenpeas.txt  icecream.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge/freezer
+$ rm couch.txt 
+removed 'couch.txt'
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge/freezer
+$ ls
+frozenpeas.txt	icecream.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge/freezer
+$ cd ..
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge
+$ ls
+crisper-drawer/  freezer/  milk.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge
+$ cd ..
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ ls
+cans.txt  fridge/  pantry/  sink/  trashcan/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ mv cans.txt ~/code/wdi-atx-10/homework/kitchen/pantry
+'cans.txt' -> '/Users/sarahgoldgar/code/wdi-atx-10/homework/kitchen/pantry/cans.txt'
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ cd fridge/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge
+$ ls
+crisper-drawer/  freezer/  milk.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge
+$ cd crisper-drawer/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge/crisper-drawer
+$ ls
+apples.txt  lettuce.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge/crisper-drawer
+$ cd ..
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge
+$ cd freezer/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge/freezer
+$ ls
+frozenpeas.txt	icecream.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge/freezer
+$ cd ..
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge
+$ ls
+crisper-drawer/  freezer/  milk.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/fridge
+$ cd ..
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ cd pantry/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/pantry
+$ ls
+cans.txt  cereal.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/pantry
+$ cd ..
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ cd sink/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/sink
+$ ls
+dirty-dishes.txt  drying-rack/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/sink
+$ cd drying-rack/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/sink/drying-rack
+$ ls
+clean-dishes.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/sink/drying-rack
+$ cd ../../
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ cd trashcan/
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/trashcan
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen/trashcan
+$ cd ..
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ tree
+.
+├── fridge
+│   ├── crisper-drawer
+│   │   ├── apples.txt
+│   │   └── lettuce.txt
+│   ├── freezer
+│   │   ├── frozenpeas.txt
+│   │   └── icecream.txt
+│   └── milk.txt
+├── pantry
+│   ├── cans.txt
+│   └── cereal.txt
+├── sink
+│   ├── dirty-dishes.txt
+│   └── drying-rack
+│       └── clean-dishes.txt
+└── trashcan
+    ├── banana-peels.txt
+    ├── chicken-bones.txt
+    └── egg-shells.txt
+
+7 directories, 12 files
+sarahgoldgar ~/code/wdi-atx-10/homework/kitchen
+$ 
